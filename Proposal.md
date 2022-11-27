@@ -20,7 +20,7 @@ System Architecture-ghazali
 
 
 Sensor- Fiqah
-
+With the aid of a temperature sensor, this project continuously monitors the temperature in a cold storage for every 10 second
 
 
 ## Cloud Platform

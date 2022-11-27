@@ -24,7 +24,12 @@ Several research and technology challenges need to addressed towards the impleme
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ###_System Architecture_####
+=======
+System Architecture
+![IoT Diagram vpd (1)](https://user-images.githubusercontent.com/95857649/204152137-a34c5a76-a1e9-4dc4-880c-9cb1c1814eea.jpg)
+>>>>>>> 1134fba3492b0544c0f30a4a180f93576d8b4bfc
 =======
 System Architecture
 ![IoT Diagram vpd (1)](https://user-images.githubusercontent.com/95857649/204152137-a34c5a76-a1e9-4dc4-880c-9cb1c1814eea.jpg)

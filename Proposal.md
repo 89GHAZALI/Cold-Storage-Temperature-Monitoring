@@ -38,7 +38,9 @@ System Architecture
 
 
 
-###_Sensor_###
+####_Sensor_####
+=======
+
 With the aid of a temperature sensor, this project continuously monitors the temperature in a cold storage for every 10 second. The threshold value is 5degreeCelcius. An LED is illuminated and a buzzer sounds to inform persons in the area if the temperature in the cold storage exceeds 5degC. The user is also alerted and informed of the current temperature through an (SMS or mobile app).
 The sensor use in this project is LM35 sensor which determnine the temperature before communicating it to the Bolt WiFi module.
 The Python programme determines whether the current temperature is below a predetermined threshold (link : https://www.hackster.io/ritwik-deo/temperature-monitoring-system-for-cold-storage-43f679)

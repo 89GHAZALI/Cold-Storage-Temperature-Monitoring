@@ -20,8 +20,9 @@ System Architecture-ghazali
 
 
 Sensor- Fiqah
-With the aid of a temperature sensor, this project continuously monitors the temperature in a cold storage for every 10 second
-
+With the aid of a temperature sensor, this project continuously monitors the temperature in a cold storage for every 10 second. The threshold value is 5degreeCelcius. An LED is illuminated and a buzzer sounds to inform persons in the area if the temperature in the cold storage exceeds 5degC. The user is also alerted and informed of the current temperature through an (SMS or mobile app).
+The sensor use in this project is LM35 sensor which determnine the temperature before communicating it to the Bolt WiFi module.
+The Python programme determines whether the current temperature is below a predetermined threshold.
 
 ## Cloud Platform
 Deployment is a critical stage in web development. It is at this point that the application is tested in an environment where the user will be using it. Any sensitive information should be packaged in a manner that does not compromise the app.

@@ -12,3 +12,25 @@ Several research and technology challenges need to addressed towards the impleme
 
 3) Smart Things: Ultra low power circuits and devices capable of tolerating harsh environments have to be developed. Moreover, parallel processing in low power multi-processorsystems, adaptation, autonomous behavior while guaranteeing trust, privacy and security, as well as battery, energy harvesting and storage technologies are among the core challenges regarding the devices in the IoT.
 
+
+System Architecture-ghazali
+
+
+
+
+
+Sensor- Fiqah
+
+
+
+Cloud Platform- Chad
+
+
+
+
+
+
+
+
+
+Dashboard-hanafi

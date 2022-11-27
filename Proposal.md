@@ -1,5 +1,5 @@
 ## Proposal
-========
+
 
 Description: Malaysia is one of the biggest bird nest supplier and swiftlet farming, as well as its neighbouring country, Indonesia. One of the pioneers of Raw Unclean Edible Bird Nest (RUC EBN) exporting is MBN Enterprise. It is considered a primary processing unit for bird nests, which they mainly doing the initial cleaning of bird nest, such as grading, cleaning, drying and undergoes heating treatment before it is packaged and exported. In between the processes, the bird nests must be stored in a chiller room, to maintain the quality of the bird nests as well as to prevent yeast and mould or microbial growth.
 
@@ -14,7 +14,7 @@ Basic overview of how the smart monitoring system work:
 Internet of things technology is adopted in every field. Our proposed Smart cold storage and inventory monitoring system uses sensor-based IoT technology to offer remote monitoring and tracking the produce. Our paper proposed methodology is early warning alerts and notifications in critical conditions. It enables end-end visibility and accountability across the entire product value chain.This project continuously monitors the temperature in the cold storage facility with the help of LM35 temperature sensor. The operator sets a predefined threshold temperature value for the storage unit. The current values are displayed on the monitor with the help of Ubuntu software. If the threshold temperature is crossed, an SMS alert is sent to the operator along with the value of the current temperature reading of the storage unit. Also, visual and auditory cues are sent to the people nearby via lighting of an LED and the buzzing sound from the buzzer.
 
 ## Problem Statement
-=======
+
 
 Several research and technology challenges need to addressed towards the implementation of IoT applications as well as the potential realization of horizontal IoT platforms. The most important challenges, based on our findings, are listed below.
 
@@ -27,7 +27,7 @@ Several research and technology challenges need to addressed towards the impleme
 
 
 ## System Architecture
-=======
+
 System Architecture
 ![IoT Diagram vpd (1)](https://user-images.githubusercontent.com/95857649/204152137-a34c5a76-a1e9-4dc4-880c-9cb1c1814eea.jpg)
 
@@ -41,7 +41,7 @@ System Architecture
 
 
 ## Sensor
-=======
+
 
 With the aid of a temperature sensor, this project continuously monitors the temperature in a cold storage for every 10 second. The threshold value is 5degreeCelcius. An LED is illuminated and a buzzer sounds to inform persons in the area if the temperature in the cold storage exceeds 5degC. The user is also alerted and informed of the current temperature through an (SMS or mobile app).
 The sensor use in this project is LM35 sensor which determnine the temperature before communicating it to the Bolt WiFi module.
@@ -51,7 +51,7 @@ List of Hardware component for sensor circuit:
 Bread board, IoT Bolt WiFI Module, Jumper wires, LED, LM35 temperature sensor, buzzer, resistor and USB Cable
 
 ## Cloud Platform
-=======
+
 Deployment is a critical stage in web development. It is at this point that the application is tested in an environment where the user will be using it. Any sensitive information should be packaged in a manner that does not compromise the app.
 This is just a draft for the final project, we decided to present this project as a web application (project from stage 1), particularly with the [Django framework](https://www.djangoproject.com/). And the data is private and secure as it is hosted in [pythonanywhere](https://www.pythonanywhere.com/).
 #### The web-application can be accessed from [here](http://chadli.pythonanywhere.com/)

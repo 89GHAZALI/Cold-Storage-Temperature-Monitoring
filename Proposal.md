@@ -71,7 +71,8 @@ This is just a draft for the final project, we decided to present this project a
 
 
 
-Dashboard-hanafi
+## Dashboard
+
 An Internet of Things (IoT) dashboard is the user interface that is contained within an Internet of Things (IoT) platform. It gives users the ability to monitor and interact with connected devices through the use of graphs, charts, and other tools and UI components. Dashboards provide the user with the ability to handle every aspect of their connected devices and gain perspective on their surroundings through the visualisation of their device data.
 
 Microsoft Visual Studio are used in this project to design the dashboard of the system.

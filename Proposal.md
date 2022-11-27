@@ -29,6 +29,8 @@ Several research and technology challenges need to addressed towards the impleme
 
 
 
+
+
 ###_Sensor_###
 With the aid of a temperature sensor, this project continuously monitors the temperature in a cold storage for every 10 second. The threshold value is 5degreeCelcius. An LED is illuminated and a buzzer sounds to inform persons in the area if the temperature in the cold storage exceeds 5degC. The user is also alerted and informed of the current temperature through an (SMS or mobile app).
 The sensor use in this project is LM35 sensor which determnine the temperature before communicating it to the Bolt WiFi module.
@@ -58,3 +60,4 @@ This is just a draft for the final project, we decided to present this project a
 
 Dashboard-hanafi
 
+##'/home/ghazali/Desktop/IoT Diagram.vpd (1).jpg'

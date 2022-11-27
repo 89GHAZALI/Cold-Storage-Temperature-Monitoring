@@ -10,5 +10,5 @@ Several research and technology challenges need to addressed towards the impleme
 
 2) Semantic Interoperability: For full interoperability, it is necessary that the devices interpret the shared information correctly and act accordingly, which is covered by the semantic aspect of interoperability usually referred to as Information Model. Hence, improvements have to be made regarding distributed ontologies, semantic web, or semantic device discovery.
 
-3) Smart Things: Ultra low power circuits and devices capable of tolerating harsh environments have to be developed. Moreover, parallel processing in low power multi-processorsystems, adaptation, autonomous behavior while guaranteeing trust, privacy and security, as well as battery, energy harvesting and storage technologies are among the core challenges regarding the devices in the IoT.
+3) Smart Things: Ultra low power circuits and devices capable of tolerating harsh environments have to be developed. Moreover, parallel processing in low power multi-processor systems, adaptation, autonomous behavior while guaranteeing trust, privacy and security, as well as battery, energy harvesting and storage technologies are among the core challenges regarding the devices in the IoT.
 

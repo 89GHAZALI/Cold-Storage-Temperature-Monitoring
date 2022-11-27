@@ -23,13 +23,23 @@ Sensor- Fiqah
 
 
 
-Cloud Platform- Chad
+## Cloud Platform
+Deployment is a critical stage in web development. It is at this point that the application is tested in an environment where the user will be using it. Any sensitive information should be packaged in a manner that does not compromise the app.
+This is just a draft for the final project, we decided to present this project as a web application (project from stage 1), particularly with the [Django framework](https://www.djangoproject.com/). And the data is private and secure as it is hosted in [pythonanywhere](https://www.pythonanywhere.com/).
+#### The web-application can be accessed from [here](http://chadli.pythonanywhere.com/)
+#### Screenshots
+##### Homepage
 
+![homepage capture](https://user-images.githubusercontent.com/110521665/204136430-8809cef7-0729-4058-84f4-1db16c79f93b.JPG)
 
+## LINK: [Demo for the setup of cloud platform](https://drive.google.com/file/d/1gA54EYpU97CedSw01ERy1OGtU6efNLnq/view?usp=sharing)
 
+## Built With
 
-
-
+* Django2.2.4
+* Python3.8
+* Html
+* Css
 
 
 

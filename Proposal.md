@@ -73,4 +73,4 @@ This is just a draft for the final project, we decided to present this project a
 
 Dashboard-hanafi
 
-##'/home/ghazali/Desktop/IoT Diagram.vpd (1).jpg'
+

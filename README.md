@@ -43,13 +43,30 @@ System Architecture
 
 ## Sensor
 
-
 With the aid of a temperature sensor, this project continuously monitors the temperature in a cold storage for every 10 second. The threshold value is 5degreeCelcius. An LED is illuminated and a buzzer sounds to inform persons in the area if the temperature in the cold storage exceeds 5degC. The user is also alerted and informed of the current temperature through an (SMS or mobile app).
-The sensor use in this project is LM35 sensor which determnine the temperature before communicating it to the Bolt WiFi module.
-The Python programme determines whether the current temperature is below a predetermined threshold (link : https://www.hackster.io/ritwik-deo/temperature-monitoring-system-for-cold-storage-43f679)
+The sensor use in this project is DHT11 sensor which determine the temperature before communicating it to the ESP8266 Wifi with microcontroller module. 
 
 List of Hardware component for sensor circuit:
-Bread board, IoT Bolt WiFI Module, Jumper wires, LED, LM35 temperature sensor, buzzer, resistor and USB Cable
+WIFI ESP8266 With arduino, Jumper wires, LED, DHT11, 10k ohm resistor
+
+Python coding for temperature sensor (link for web: https://randomnerdtutorials.com/esp32-esp8266-dht11-dht22-micropython-temperature-humidity-sensor/)
+
+//There is a dht module that comes with the MicroPython firmware by default. So, it is easy to get temperature and humidity.
+
+1. Importing the dht and machine modules
+import dht
+from machine import Pin
+
+2. Create a dht object that refers to the sensor’s data pin, in this case it’s GPIO 14:
+
+sensor = dht.DHT11(Pin(14))
+#sensor = dht.DHT22(Pin(14))
+
+3. Measure and read the sensor values
+
+sensor.measure() 
+sensor.temperature()
+sensor.humidity()
 
 ## Cloud Platform
 

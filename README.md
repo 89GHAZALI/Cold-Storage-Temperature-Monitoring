@@ -50,6 +50,7 @@ List of Hardware component for sensor circuit:
 WIFI ESP8266 With arduino, Jumper wires, LED, DHT11, 10k ohm resistor
 
 Python coding for temperature sensor (link for web: https://randomnerdtutorials.com/esp32-esp8266-dht11-dht22-micropython-temperature-humidity-sensor/)
+another link: https://www.instructables.com/Interface-DHT11-Using-Arduino/
 
 //There is a dht module that comes with the MicroPython firmware by default. So, it is easy to get temperature and humidity.
 

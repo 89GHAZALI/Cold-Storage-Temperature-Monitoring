@@ -49,6 +49,10 @@ The sensor use in this project is DHT11 sensor which determine the temperature b
 List of Hardware component for sensor circuit:
 WIFI ESP8266 With arduino, Jumper wires, LED, DHT11, 10k ohm resistor
 
+updated : coding arduino 
+https://randomnerdtutorials.com/complete-guide-for-dht11dht22-humidity-and-temperature-sensor-with-arduino/
+https://randomnerdtutorials.com/esp8266-dht11dht22-temperature-and-humidity-web-server-with-arduino-ide/
+
 Python coding for temperature sensor (link for web: https://randomnerdtutorials.com/esp32-esp8266-dht11-dht22-micropython-temperature-humidity-sensor/)
 another link: https://www.instructables.com/Interface-DHT11-Using-Arduino/
 

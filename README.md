@@ -254,11 +254,41 @@ sensor.humidity()
 Deployment is a critical stage in web development. It is at this point that the application is tested in an environment where the user will be using it. Any sensitive information should be packaged in a manner that does not compromise the app.
 This is just a draft for the final project, we decided to present this project as a web application (project from stage 1), particularly with the [Django framework](https://www.djangoproject.com/). And the data is private and secure as it is hosted in [pythonanywhere](https://www.pythonanywhere.com/).
 #### The web-application can be accessed from [here](http://chadli.pythonanywhere.com/)
-#### Screenshots
-##### Homepage
 
-![homepage capture](https://user-images.githubusercontent.com/110521665/204136430-8809cef7-0729-4058-84f4-1db16c79f93b.JPG)
+## Setup (first time only)
 
+1. Clone the source into a directory called "weather_station" inside the current directory
+```git clone https://github.com/Chadlikouider/cloud_platform.git```
+2. Move into the directory
+```cd cloud_platform```
+3. Create a new python3 virtualenv in a folder called "venv"
+```virtualenv -p /usr/bin/python3 venv```
+4. Activate the virtualenv just created
+```. venv/bin/activate```
+You can verify that this step took place correctly by noticing the "(venv)" string prepended to your prompt.
+5. Install the requirements:
+```pip install -r requirements.txt```
+6. Run the server locally
+```python manage.py runserver```
+7. Deactivate the virtualenv
+```deactivate```
+## Run the project
+1. Move to the "cloud_platform" directory
+2. Activate the virtualenv
+```. venv/bin/activate```
+3. Run the server
+```python manage.py runserver IPv4-of-server:8000```
+-Set the IPv4 address of the server in the following files
+```bash
+..cloud_platform\monitor\settings.py 
+-just edit this line : ALLOWED_HOSTS = ["0.0.0.0","include IPv4 address of server here"]
+
+
+....cloud_platform\ArduinoCodes\DJ_receive_data.ino  JUST EDIT THE URL
+```
+
+4. Don't forget to deactivate the virtualenv after you've finished
+```deactivate``
 ## LINK: [Demo for the setup of cloud platform](https://drive.google.com/file/d/1gA54EYpU97CedSw01ERy1OGtU6efNLnq/view?usp=sharing)
 
 ## Built With

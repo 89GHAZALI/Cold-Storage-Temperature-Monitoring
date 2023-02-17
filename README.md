@@ -58,6 +58,7 @@ another link: https://www.instructables.com/Interface-DHT11-Using-Arduino/
 
 SENSOR CODING (26/1/2023)
 
+```bash
 // Import required libraries
 #include <Arduino.h>
 #include <ESP8266WiFi.h>
@@ -230,6 +231,7 @@ void loop(){
   }
 }
 
+
 //There is a dht module that comes with the MicroPython firmware by default. So, it is easy to get temperature and humidity.
 
 1. Importing the dht and machine modules
@@ -246,7 +248,7 @@ sensor = dht.DHT11(Pin(14))
 sensor.measure() 
 sensor.temperature()
 sensor.humidity()
-
+```
 ## Cloud Platform
 
 Deployment is a critical stage in web development. It is at this point that the application is tested in an environment where the user will be using it. Any sensitive information should be packaged in a manner that does not compromise the app.

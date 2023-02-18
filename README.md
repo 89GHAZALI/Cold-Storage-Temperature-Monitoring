@@ -292,10 +292,21 @@ You can verify that this step took place correctly by noticing the "(venv)" stri
 
 ### The structure of the database
 
+#### Data dictionary
+
+|     Field Name      | Data Type   |   Data format   | field size  |             Description               |
+| ------------------- | ----------- | --------------- | ----------- | ------------------------------------- |
+|       sensor_id     |     INT     |       NN        |     2       |  unique identifier for the sensor     |
+|       sensor_type   |     TEXT    |                 |     10      |  type if the sensor used              |
+|       reading_id    |     INT     |       NN        |     2       |  unique identifier for each reading   |
+|       timestamp     | DATE/TIME   |     HH:MM:SS    |     8       |  time when the reading was taken      |
+|       value         |     FLOAT   |     NN          |     3       |  value of the reading                 |
+
+
 The **sensor** table:
 - sensor_id (primary key): unique identifier for the sensor
 
-| sensor_id           | sensor_type      |
+|     sensor_id       |   sensor_type    |
 | ------------------- | ---------------- |
 |         1           |   Temperature    | 
 |         2           |    Humidity      | 
@@ -307,7 +318,7 @@ The **Reading** table:
 - timestamp: time when the reading was taken
 - value: value of the reading (e.g., temperature in Celsius, humidity in percentage)
 
-| reading_id          | timestamp   | sensor_id | value  |
+|     reading_id      | timestamp   | sensor_id | value  |
 | ------------------- | ----------- | --------- | ------ |
 |       12845         | 10:35:44    |     1     |  25    |
 |       12846         | 10:45:44    |     2     |  50    |

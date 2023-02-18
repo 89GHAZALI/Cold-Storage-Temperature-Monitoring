@@ -289,6 +289,29 @@ You can verify that this step took place correctly by noticing the "(venv)" stri
 
 4. Don't forget to deactivate the virtualenv after you've finished
 ```deactivate``
+
+### The structure of the database
+
+The **sensor** table:
+- sensor_id (primary key): unique identifier for the sensor
+
+| sensor_id           | sensor_type      |
+| ------------------- | ---------------- |
+|         1           |   Temperature    | 
+|         2           |    Humidity      | 
+
+The **Reading** table:
+
+- reading_id (primary key): unique identifier for each reading
+- sensor_id (foreign key): identifier for the sensor that took the reading
+- timestamp: time when the reading was taken
+- value: value of the reading (e.g., temperature in Celsius, humidity in percentage)
+
+| reading_id          | timestamp   | sensor_id | value  |
+| ------------------- | ----------- | --------- | ------ |
+|       12845         | 10:35:44    |     1     |  25    |
+|       12846         | 10:45:44    |     2     |  50    |
+|       .....         | .........   |   ....    |  ...   |
 ## LINK: [Demo for the setup of cloud platform](https://drive.google.com/file/d/1gA54EYpU97CedSw01ERy1OGtU6efNLnq/view?usp=sharing)
 
 ## Built With
